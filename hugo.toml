@@ -1,3 +1,27 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+languageCode = 'en-us'
+title = 'My Hugo Blog'
+theme = 'simple'
+
+[params]
+description = 'A minimal blog built with Hugo'
+author = 'Your Name'
+
+[menu]
+[[menu.main]]
+name = 'Home'
+url = '/'
+weight = 1
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 2
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 3
+
+[markup]
+[markup.highlight]
+style = 'monokai'
+noClasses = false
