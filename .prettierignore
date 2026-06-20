@@ -1,0 +1,8 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# Go HTML templates — Prettier's HTML parser mangles {{ ... }} actions
+layouts/
+themes/*/layouts/
