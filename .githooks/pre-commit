@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+# Enable once per clone with:
+#  git config core.hooksPath .githooks
+
+set -euo pipefail
+
+# Format staged files with Prettier, then re-stage anything it changed.
+files=()
+while IFS= read -r file; do
+  files+=("$file")
+done < <(git diff --cached --name-only --diff-filter=ACMR)
+[ ${#files[@]} -eq 0 ] && exit 0
+
+prettier --write --ignore-unknown "${files[@]}"
+git add "${files[@]}"
