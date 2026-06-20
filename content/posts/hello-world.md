@@ -32,3 +32,5 @@ dev server to preview drafts:
 ```bash
 hugo server -D
 ```
+
+{{< midi project="smile-meditation" sheet="4-ibdw" width="900" height="360" >}}

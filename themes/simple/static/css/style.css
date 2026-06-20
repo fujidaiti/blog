@@ -112,6 +112,13 @@ h3 {
   padding: 0;
 }
 
+.post-content iframe {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .post-content blockquote {
   border-left: 3px solid var(--border);
   margin-left: 0;
