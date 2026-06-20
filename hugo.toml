@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My Hugo Blog'
+languageCode = 'jp'
+title = 'Norelease.dev'
 theme = 'simple'
 
 [params]
-description = 'A minimal blog built with Hugo'
-author = 'Your Name'
+description = 'Norelease.dev blog'
+author = 'Daichi Fujita'
 
 [menu]
 [[menu.main]]
