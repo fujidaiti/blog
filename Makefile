@@ -1,7 +1,7 @@
-## Run dev server with drafts
+## Run dev server with drafts and future-dated pages
 .PHONY: dev
 dev:
-	hugo server -D
+	hugo server -D --buildFuture
 
 ## Build the site into public/
 .PHONY: build
