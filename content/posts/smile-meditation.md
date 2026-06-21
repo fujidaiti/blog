@@ -1,6 +1,7 @@
 ---
 title: Transcription - Vulfpeck /// Smile Meditation
 date: 2026-06-21
+showdescription: true
 description: >-
   "This meditation relaxes and opens our hearts with the image and felt sense of
   a smile. We then awaken all the senses in a full bodily release." — Jack
