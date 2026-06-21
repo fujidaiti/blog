@@ -12,9 +12,12 @@
 </head>
 <body>
   {{ partial "header.html" . }}
-  <main class="container">
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+  <div class="page-layout">
+    {{ partial "sidebar.html" . }}
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </main>
+  </div>
 </body>
 </html>

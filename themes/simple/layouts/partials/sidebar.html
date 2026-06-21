@@ -1,0 +1,10 @@
+<aside class="site-sidebar">
+  <div class="sidebar-inner">
+    <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+    <nav class="sidebar-nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</aside>
