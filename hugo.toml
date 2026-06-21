@@ -17,7 +17,7 @@ url = '/posts/'
 weight = 2
 [[menu.main]]
 name = 'Scores'
-url = '/tags/score/'
+url = '/tags/scores/'
 weight = 3
 [[menu.main]]
 name = 'About'

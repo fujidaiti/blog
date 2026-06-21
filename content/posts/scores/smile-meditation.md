@@ -6,7 +6,7 @@ description: >-
   "This meditation relaxes and opens our hearts with the image and felt sense of
   a smile. We then awaken all the senses in a full bodily release." — Jack
   Stratton
-tags: [score, vulf, classic woody goss line]
+tags: [scores, vulf, classic-woody-goss-line]
 ---
 
 Key of Eb.
