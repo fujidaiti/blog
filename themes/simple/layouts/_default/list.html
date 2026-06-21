@@ -3,7 +3,7 @@
   {{ with .Content }}<div class="page-content">{{ . }}</div>{{ end }}
 
   <ul class="post-list">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .RegularPagesRecursive.ByDate.Reverse }}
       <li>
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
