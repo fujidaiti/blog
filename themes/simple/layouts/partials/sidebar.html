@@ -1,5 +1,8 @@
 <aside class="site-sidebar">
   <div class="sidebar-inner">
+    {{ if .IsPage }}
+    <p class="sidebar-post-title" aria-hidden="true">{{ .Title }}</p>
+    {{ end }}
     {{ if .TableOfContents }}
     <nav class="sidebar-toc">
       {{ .TableOfContents }}
