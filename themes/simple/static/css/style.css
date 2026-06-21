@@ -99,6 +99,10 @@ h3 {
   font-weight: 300;
 }
 
+.post-header {
+  margin-bottom: 3rem;
+}
+
 .post-content pre {
   background: #f6f8fa;
   padding: 1rem;
