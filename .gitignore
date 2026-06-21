@@ -1,5 +1,9 @@
 .DS_Store
+
+# hugo
 public/
 .hugo_build.lock
 resources/_gen/
 
+# wrangler
+.wrangler/cache/

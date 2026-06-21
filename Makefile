@@ -3,11 +3,6 @@
 dev:
 	hugo server -D --buildFuture
 
-## Build the site into public/
-.PHONY: build
-build:
-	hugo --minify
-
 ## Remove build artifacts
 .PHONY: clean
 clean:

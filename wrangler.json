@@ -1,0 +1,14 @@
+{
+  "name": "blog",
+  "compatibility_date": "2026-06-21",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [
+    {
+      "pattern": "norelease.dev",
+      "custom_domain": true
+    }
+  ]
+}
