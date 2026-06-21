@@ -93,6 +93,12 @@ h3 {
   color: var(--muted);
 }
 
+.post-header .post-summary {
+  margin-left: 0;
+  color: #999;
+  font-weight: 300;
+}
+
 .post-content pre {
   background: #f6f8fa;
   padding: 1rem;
