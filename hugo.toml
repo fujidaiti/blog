@@ -28,3 +28,7 @@ weight = 4
 [markup.highlight]
 style = 'monokai'
 noClasses = false
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = true

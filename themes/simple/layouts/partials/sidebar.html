@@ -1,5 +1,11 @@
 <aside class="site-sidebar">
   <div class="sidebar-inner">
+    {{ if .TableOfContents }}
+    <nav class="sidebar-toc">
+      {{ .TableOfContents }}
+    </nav>
+    {{ end }}
+    <div class="sidebar-spacer"></div>
     <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
     <nav class="sidebar-nav">
       {{ range .Site.Menus.main }}

@@ -179,16 +179,49 @@ h3 {
     top: 0;
     height: 100vh;
     overflow-y: auto;
-    padding: 2rem 2rem 3rem 1.5rem;
+    padding: 6.2rem 2rem 3rem 1.5rem;
   }
 
   .sidebar-inner {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: flex-end;
     align-items: flex-start;
     text-align: left;
+  }
+
+  .sidebar-spacer {
+    flex: 1;
+  }
+
+  .sidebar-toc {
+    width: 100%;
+    overflow-y: auto;
+    font-size: 0.8rem;
+  }
+
+  .sidebar-toc ol {
+    list-style: decimal;
+    padding: 0;
+    padding-left: 1.25rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .sidebar-toc ol ol {
+    padding-left: 1.25rem;
+    margin-top: 0.4rem;
+  }
+
+  .sidebar-toc a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .sidebar-toc a:hover {
+    color: var(--accent);
   }
 
   .site-sidebar .site-title {
