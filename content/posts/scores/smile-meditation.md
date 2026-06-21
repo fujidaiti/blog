@@ -13,6 +13,12 @@ Key of Eb.
 
 {{< youtube w9COHCrwNQs >}}
 
+## Melody
+
+A soothing melody by Tyler Duncan.
+
+_wip_
+
 ## Intro
 
 {{< midi project="smile-meditation" sheet="4-ibdw" width="900" height="320" >}}
@@ -28,6 +34,10 @@ Key of Eb.
 ## Chorus
 
 {{< midi project="smile-meditation" sheet="4s-rn5o" width="900" height="700" >}}
+
+## Solo
+
+_wip_
 
 ## Outro
 
