@@ -21,19 +21,19 @@ _wip_
 
 ## Intro
 
-{{< midi project="smile-meditation" sheet="4-ibdw" height="320" >}}
+{{< midi project="smile-meditation" sheet="4-ibdw" height="300" >}}
 
 ## Verse
 
-{{< midi project="smile-meditation" sheet="3z-wnhq" height="600" >}}
+{{< midi project="smile-meditation" sheet="3z-wnhq" height="530" >}}
 
 ## Pre-chrous
 
-{{< midi project="smile-meditation" sheet="4-d7ju" height="620" >}}
+{{< midi project="smile-meditation" sheet="4-d7ju" height="550" >}}
 
 ## Chorus
 
-{{< midi project="smile-meditation" sheet="4s-rn5o" height="700" >}}
+{{< midi project="smile-meditation" sheet="4s-rn5o" height="600" >}}
 
 ## Solo
 
@@ -41,4 +41,4 @@ _wip_
 
 ## Outro
 
-{{< midi project="smile-meditation" sheet="42-ygbo" height="600" >}}
+{{< midi project="smile-meditation" sheet="42-ygbo" height="520" >}}
