@@ -1,6 +1,7 @@
 languageCode = 'jp'
 title = 'Norelease.dev'
 theme = 'simple'
+timeZone = 'Asia/Tokyo'
 
 [params]
 description = 'Norelease.dev blog'
