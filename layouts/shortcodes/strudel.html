@@ -6,8 +6,8 @@
   strudel-repl iframe { width: 100%; height: 100%; display: block; border: 0; }
 </style>
 {{- end }}
-<strudel-repl style="display: block; height: {{ .Get "height" | default "400" }}px;">
-{{ "<!--" | safeHTML }}
-{{ .Inner | safeHTML }}
-{{ "-->" | safeHTML }}
-</strudel-repl>
+{{- /* Pass the code via the `code` attribute, not an HTML comment in the body: `hugo --minify` strips HTML comments. */}}
+<strudel-repl
+  style="display: block; height: {{ .Get "height" | default "400" }}px;"
+  code="{{ trim .Inner "\n" }}"
+></strudel-repl>
