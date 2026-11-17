@@ -46,6 +46,11 @@ body {
   color: var(--fg);
 }
 
+.site-header nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-header nav a {
   margin-left: 1rem;
   color: var(--muted);
@@ -58,6 +63,17 @@ body {
 }
 
 a {
+  color: var(--accent);
+}
+
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.rss-link:hover {
   color: var(--accent);
 }
 
@@ -273,6 +289,10 @@ h3 {
   .sidebar-nav a:hover,
   .sidebar-nav a.active {
     color: var(--accent);
+  }
+
+  .sidebar-rss {
+    margin-top: 1.2rem;
   }
 
   .page-layout main.container {

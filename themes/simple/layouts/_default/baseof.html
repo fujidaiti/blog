@@ -6,6 +6,9 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ with site.GetPage "/posts" }}{{ with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
+  {{ end }}{{ end }}
   {{ if .Site.Params.highlight | default true }}
   <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
   {{ end }}

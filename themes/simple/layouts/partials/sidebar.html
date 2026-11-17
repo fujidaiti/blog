@@ -15,5 +15,10 @@
         <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
       {{ end }}
     </nav>
+    {{ with site.GetPage "/posts" }}{{ with .OutputFormats.Get "rss" }}
+    <a class="rss-link sidebar-rss" href="{{ .RelPermalink }}" title="RSS feed" aria-label="RSS feed">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="19" r="2.5"/><path d="M2.5 9.5v3.2a8.8 8.8 0 0 1 8.8 8.8h3.2A12 12 0 0 0 2.5 9.5zm0-6.5v3.2a15.3 15.3 0 0 1 15.3 15.3H21A18.5 18.5 0 0 0 2.5 3z"/></svg>
+    </a>
+    {{ end }}{{ end }}
   </div>
 </aside>
